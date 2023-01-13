@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TasksIngrijitori.MainPage"
+             BackgroundColor="Black">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="70"
+            Margin="20"
+            Padding="20,0"
+            VerticalOptions="Center">
+
+            <Image
+            Source="welcome.png"
+            SemanticProperties.HeadingLevel="Level1"
+            HeightRequest="200"
+            WidthRequest="500"
+            HorizontalOptions="Center"/>
+
+            
+            <Label
+                
+                Text="TrustySitters: Your Go-To for Reliable Baby, Elderly and Pet Sitting Services."
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="TrustySitters: Your Go-To for Reliable Baby, Elderly and Pet Sitting Services."
+                FontSize="20"
+                TextColor="White"
+                HorizontalOptions="Center" />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

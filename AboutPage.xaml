@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TasksIngrijitori.AboutPage"
+             Title="Despre"
+             BackgroundColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image
+                Source="about.png"
+                HeightRequest="100"
+                WidthRequest="100"
+                HorizontalOptions="Center"
+                Margin="0,20,0,20"/>
+            <Label
+                Text="All about us"
+                FontSize="24"
+                FontAttributes="Bold"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Welcome to our community of trusted caregivers! Our website is designed to connect families and individuals with experienced and reliable sitters for their babies, elderly loved ones, and beloved pets. Whether you're in need of a last-minute babysitter or a regular pet-sitter, our platform makes it easy to find the right person for the job. Our sitters are vetted and have undergone background checks, so you can feel confident leaving your loved ones in their care. Browse through profiles, read reviews, and message sitters directly to find the perfect match for your needs. Sign up today and experience the peace of mind that comes with knowing your loved ones are in good hands."
+                FontSize="16"
+                TextColor="White"
+                Margin="20"/>
+           
+            <Button
+                Text="Email us"
+                Clicked="OnEmailUsClicked"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0"/>
+            <Button
+                Text="Find us on Facebook"
+                Clicked="OnFacebookClicked"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
